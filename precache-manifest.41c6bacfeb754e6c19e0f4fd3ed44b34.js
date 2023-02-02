@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "06f255b8859886b16d33",
+    "revision": "6a7a1748a146df73a2d1",
     "url": "/NewsEra/static/css/main.fff623f1.chunk.css"
   },
   {
-    "revision": "06f255b8859886b16d33",
-    "url": "/NewsEra/static/js/main.06f255b8.chunk.js"
+    "revision": "6a7a1748a146df73a2d1",
+    "url": "/NewsEra/static/js/main.6a7a1748.chunk.js"
   },
   {
     "revision": "8a1229037873ab4e6605",
     "url": "/NewsEra/static/js/1.8a122903.chunk.js"
   },
   {
-    "revision": "689aefc2ac7a97c7a1cb",
-    "url": "/NewsEra/static/js/2.689aefc2.chunk.js"
+    "revision": "7a98a80d9c7fc3ff925e",
+    "url": "/NewsEra/static/js/2.7a98a80d.chunk.js"
   },
   {
     "revision": "f5ed66f3921dd2bc6fc4",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/NewsEra/static/media/loading.db0d190d.gif"
   },
   {
-    "revision": "54e7deac8fc87f25de5095ab283ea581",
+    "revision": "3f3b431625a2a5992401cde951408277",
     "url": "/NewsEra/index.html"
   }
 ];
