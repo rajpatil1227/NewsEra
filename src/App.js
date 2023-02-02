@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import NavBar from './Components/NavBar';
 import News from './Components/News';
 import {
-  // BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
   HashRouter
@@ -25,7 +25,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        {/* <Router> */}
+        <BrowserRouter> 
           <HashRouter basename='/'>
         <NavBar/> 
         <LoadingBar
@@ -44,7 +44,7 @@ export default class App extends Component {
           <Route exact path="/technology" element={<News setProgress={this.setProgress} key="technology" pageSize={this.pageSize} country="in" category="technology"/>}/>
         </Routes>
         </HashRouter>
-        {/* </Router> */}
+        </BrowserRouter> 
       </div>
     )
   }
