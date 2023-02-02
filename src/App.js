@@ -4,9 +4,10 @@ import React, { Component } from 'react'
 import NavBar from './Components/NavBar';
 import News from './Components/News';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
@@ -24,7 +25,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        {/* <Router> */}
+          <HashRouter basename='/'>
         <NavBar/> 
         <LoadingBar
         height={3}
@@ -41,7 +43,8 @@ export default class App extends Component {
           <Route exact path="/sports" element={<News setProgress={this.setProgress} key="sports" pageSize={this.pageSize} country="in" category="sports"/>}/>
           <Route exact path="/technology" element={<News setProgress={this.setProgress} key="technology" pageSize={this.pageSize} country="in" category="technology"/>}/>
         </Routes>
-        </Router>
+        </HashRouter>
+        {/* </Router> */}
       </div>
     )
   }
