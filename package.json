@@ -1,7 +1,7 @@
 {
   "name": "newsapp",
   "version": "0.1.0",
-  "homepage": "https://rajpatil1227.github.io/NewsEra/",
+  "homepage": "https://rajpatil1227.github.io/NewsEra",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
